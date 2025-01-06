@@ -1,0 +1,337 @@
+{
+    "documents": [
+      {
+        "documentName": "Course Registration Form",
+        "documentCategory": "Academics",
+        "documentStatus": "Pending",
+        "documentDeadline": "2025-02-15"
+      },
+      {
+        "documentName": "Tuition Payment Receipt",
+        "documentCategory": "Finance",
+        "documentStatus": "Complete",
+        "documentDeadline": "2025-01-20"
+      },
+      {
+        "documentName": "Hostel Application Form",
+        "documentCategory": "Accommodation",
+        "documentStatus": "Approved",
+        "documentDeadline": "2025-01-30"
+      },
+      {
+        "documentName": "Medical Certificate",
+        "documentCategory": "Health",
+        "documentStatus": "Complete",
+        "documentDeadline": "2025-03-10"
+      },
+      {
+        "documentName": "Student ID Renewal",
+        "documentCategory": "Administration",
+        "documentStatus": "Incomplete",
+        "documentDeadline": "2025-02-28"
+      },
+      {
+        "documentName": "Laboratory Clearance Form",
+        "documentCategory": "Academics",
+        "documentStatus": "Pending",
+        "documentDeadline": "2025-02-20"
+      },
+      {
+        "documentName": "Scholarship Application",
+        "documentCategory": "Finance",
+        "documentStatus": "Pending",
+        "documentDeadline": "2025-03-15"
+      },
+      {
+        "documentName": "Room Change Request",
+        "documentCategory": "Accommodation",
+        "documentStatus": "Approved",
+        "documentDeadline": "2025-02-10"
+      },
+      {
+        "documentName": "Vaccination Record",
+        "documentCategory": "Health",
+        "documentStatus": "Complete",
+        "documentDeadline": "2025-01-25"
+      },
+      {
+        "documentName": "Leave Application",
+        "documentCategory": "Administration",
+        "documentStatus": "Incomplete",
+        "documentDeadline": "2025-02-05"
+      }
+    ],
+    "courses": [
+      {
+        "courseTitle": "Introduction to Computer Science",
+        "courseCode": "CSC101",
+        "courseUnit": 3,
+        "currentSemester": "First",
+        "level": 100,
+        "courseVenue": "LT1 Science Complex",
+        "courseDescription": "Fundamental concepts of computer science and programming"
+      },
+      {
+        "courseTitle": "Calculus I",
+        "courseCode": "MTH101",
+        "courseUnit": 4,
+        "currentSemester": "First",
+        "level": 100,
+        "courseVenue": "Mathematics Block Room 201",
+        "courseDescription": "Differential and integral calculus of one variable"
+      },
+      {
+        "courseTitle": "Engineering Drawing",
+        "courseCode": "ENG103",
+        "courseUnit": 2,
+        "currentSemester": "First",
+        "level": 100,
+        "courseVenue": "Engineering Workshop A",
+        "courseDescription": "Basic principles of technical drawing and design"
+      },
+      {
+        "courseTitle": "Physics for Engineers",
+        "courseCode": "PHY105",
+        "courseUnit": 3,
+        "currentSemester": "First",
+        "level": 100,
+        "courseVenue": "Physics Lab 2",
+        "courseDescription": "Mechanics and properties of matter"
+      },
+      {
+        "courseTitle": "Chemistry Fundamentals",
+        "courseCode": "CHM101",
+        "courseUnit": 3,
+        "currentSemester": "First",
+        "level": 100,
+        "courseVenue": "Chemistry Lab 1",
+        "courseDescription": "Basic concepts in general chemistry"
+      },
+      {
+        "courseTitle": "Technical Writing",
+        "courseCode": "ENG111",
+        "courseUnit": 2,
+        "currentSemester": "First",
+        "level": 100,
+        "courseVenue": "Arts Block Room 102",
+        "courseDescription": "Professional communication and technical writing skills"
+      },
+      {
+        "courseTitle": "Data Structures",
+        "courseCode": "CSC201",
+        "courseUnit": 3,
+        "currentSemester": "First",
+        "level": 200,
+        "courseVenue": "Computer Lab 2",
+        "courseDescription": "Advanced data structures and algorithms"
+      },
+      {
+        "courseTitle": "Digital Logic Design",
+        "courseCode": "EEE201",
+        "courseUnit": 3,
+        "currentSemester": "First",
+        "level": 200,
+        "courseVenue": "Electronics Lab",
+        "courseDescription": "Boolean algebra and digital circuit design"
+      },
+      {
+        "courseTitle": "Statistics for Engineers",
+        "courseCode": "STA201",
+        "courseUnit": 2,
+        "currentSemester": "First",
+        "level": 200,
+        "courseVenue": "Statistics Lab",
+        "courseDescription": "Probability and statistical methods in engineering"
+      },
+      {
+        "courseTitle": "Engineering Mathematics",
+        "courseCode": "MTH203",
+        "courseUnit": 3,
+        "currentSemester": "First",
+        "level": 200,
+        "courseVenue": "Mathematics Block Room 305",
+        "courseDescription": "Mathematical methods for engineering applications"
+      }
+    ],
+    "resources": [
+      {
+        "category": "Engineering",
+        "articles": [
+          "Introduction to Mechanical Design Principles",
+          "Advanced Manufacturing Processes",
+          "Sustainable Engineering Practices"
+        ],
+        "researchPapers": [
+          "Novel Approaches in Robotics Engineering",
+          "Optimization of Industrial Processes"
+        ]
+      },
+      {
+        "category": "Science",
+        "articles": [
+          "Recent Advances in Quantum Physics",
+          "Understanding Climate Change",
+          "Molecular Biology Basics"
+        ],
+        "researchPapers": [
+          "Applications of Nanotechnology",
+          "Developments in Green Chemistry"
+        ]
+      },
+      {
+        "category": "Technology",
+        "articles": [
+          "Artificial Intelligence in Healthcare",
+          "Blockchain Technology Overview",
+          "Cloud Computing Fundamentals"
+        ],
+        "researchPapers": [
+          "Machine Learning Applications",
+          "Cybersecurity Frameworks"
+        ]
+      },
+      {
+        "category": "Mathematics",
+        "articles": [
+          "Understanding Complex Analysis",
+          "Linear Algebra Applications",
+          "Statistical Methods in Research"
+        ],
+        "researchPapers": [
+          "Number Theory Developments",
+          "Applied Mathematics in Engineering"
+        ]
+      },
+      {
+        "category": "General",
+        "articles": [
+          "Academic Writing Guidelines",
+          "Research Methodology",
+          "Professional Development Tips"
+        ],
+        "researchPapers": [
+          "Education Technology Trends",
+          "Student Success Factors"
+        ]
+      }
+    ],
+    "notifications": [
+      {
+        "notificationDate": "2025-01-05",
+        "notificationSubject": "Course Registration Deadline",
+        "notificationBody": "Please complete your course registration for the new semester by January 15th, 2025.",
+        "isRead": false
+      },
+      {
+        "notificationDate": "2025-01-04",
+        "notificationSubject": "Library Resource Update",
+        "notificationBody": "New engineering textbooks are now available in the digital library.",
+        "isRead": true
+      },
+      {
+        "notificationDate": "2025-01-03",
+        "notificationSubject": "Upcoming Workshop",
+        "notificationBody": "Register for the Technical Writing Workshop scheduled for next week.",
+        "isRead": false
+      },
+      {
+        "notificationDate": "2025-01-02",
+        "notificationSubject": "Assignment Due",
+        "notificationBody": "CSC101 Programming Assignment due in 48 hours.",
+        "isRead": true
+      },
+      {
+        "notificationDate": "2025-01-01",
+        "notificationSubject": "Holiday Notice",
+        "notificationBody": "Campus will be closed on January 10th for maintenance.",
+        "isRead": false
+      },
+      {
+        "notificationDate": "2024-12-31",
+        "notificationSubject": "Exam Schedule",
+        "notificationBody": "First semester examination timetable has been published.",
+        "isRead": true
+      },
+      {
+        "notificationDate": "2024-12-30",
+        "notificationSubject": "System Maintenance",
+        "notificationBody": "Portal will be down for maintenance from 2 AM to 4 AM tomorrow.",
+        "isRead": false
+      },
+      {
+        "notificationDate": "2024-12-29",
+        "notificationSubject": "Fee Payment Reminder",
+        "notificationBody": "Last date for tuition fee payment is January 20th, 2025.",
+        "isRead": true
+      },
+      {
+        "notificationDate": "2024-12-28",
+        "notificationSubject": "New Resource Available",
+        "notificationBody": "Check out the new Machine Learning course materials in the resource section.",
+        "isRead": false
+      },
+      {
+        "notificationDate": "2024-12-27",
+        "notificationSubject": "Department Meeting",
+        "notificationBody": "All engineering students are required to attend the department meeting on January 8th.",
+        "isRead": true
+      }
+    ],
+    "profiles": [
+      {
+        "registeredCourses": ["CSC101", "MTH101", "ENG103", "PHY105"],
+        "totalUnits": 12,
+        "level": 100,
+        "phoneNumber": "+234 801 234 5678",
+        "about": "First-year computer engineering student with interest in software development.",
+        "name": "John Doe",
+        "email": "john.doe@university.edu",
+        "department": "Computer Engineering",
+        "matricNumber": "2025/1001"
+      },
+      {
+        "registeredCourses": ["CSC201", "EEE201", "MTH203", "STA201"],
+        "totalUnits": 11,
+        "level": 200,
+        "phoneNumber": "+234 802 345 6789",
+        "about": "Second-year student passionate about robotics and AI.",
+        "name": "Jane Smith",
+        "email": "jane.smith@university.edu",
+        "department": "Computer Engineering",
+        "matricNumber": "2024/1002"
+      },
+      {
+        "registeredCourses": ["CSC101", "MTH101", "CHM101", "PHY105"],
+        "totalUnits": 13,
+        "level": 100,
+        "phoneNumber": "+234 803 456 7890",
+        "about": "Freshman interested in chemical engineering and sustainable energy.",
+        "name": "Michael Johnson",
+        "email": "michael.j@university.edu",
+        "department": "Chemical Engineering",
+        "matricNumber": "2025/2001"
+      },
+      {
+        "registeredCourses": ["ENG111", "MTH101", "PHY105", "CHM101"],
+        "totalUnits": 11,
+        "level": 100,
+        "phoneNumber": "+234 804 567 8901",
+        "about": "First-year student focusing on mechanical engineering systems.",
+        "name": "Sarah Williams",
+        "email": "sarah.w@university.edu",
+        "department": "Mechanical Engineering",
+        "matricNumber": "2025/3001"
+      },
+      {
+        "registeredCourses": ["CSC201", "MTH203", "STA201", "EEE201"],
+        "totalUnits": 11,
+        "level": 200,
+        "phoneNumber": "+234 805 678 9012",
+        "about": "Second-year student specializing in electronics and communication.",
+        "name": "David Brown",
+        "email": "david.b@university.edu",
+        "department": "Electronic Engineering",
+        "matricNumber": "2024/4001"
+      }
+    ]
+  }
