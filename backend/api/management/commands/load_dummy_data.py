@@ -72,7 +72,7 @@ class Command(BaseCommand):
                     last_name=profile_data['name'].split()[1],
                     department=profile_data['department'],
                     matricno=profile_data['matricNumber'],
-                    phonenumber=profile_data['phoneNumber']
+                    level=profile_data['level']
                 )
                 
                 # Create Profile
@@ -80,7 +80,6 @@ class Command(BaseCommand):
                     user=user,
                     total_units=profile_data['totalUnits'],
                     level=profile_data['level'],
-                    phone_number=profile_data['phoneNumber'],
                     about=profile_data['about'],
                     department=profile_data['department'],
                     matric_number=profile_data['matricNumber']

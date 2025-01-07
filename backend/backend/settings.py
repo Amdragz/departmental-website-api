@@ -19,7 +19,6 @@ import dj_database_url
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
 
@@ -28,7 +27,6 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get("SECRET_KEY")
 DEBUG = os.environ.get("DEBUG", "False").lower() == "true"
 ALLOWED_HOSTS = os.environ.get("ALLOWED_HOSTS").split(" ")
-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
@@ -104,7 +102,7 @@ DATABASES = {
         # "USER": os.getenv("DB_USER"),
         # "PASSWORD": os.getenv("DB_PWD"),
         # "HOST": os.getenv("DB_HOST"),
-        # "PORT": os.getenv("DB_PORT"),      
+        # "PORT": os.getenv("DB_PORT"),   
     }
 }
 

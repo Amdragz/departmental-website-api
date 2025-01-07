@@ -13,7 +13,7 @@ class CustomUserSerializer(serializers.ModelSerializer):
         user = CustomUser(
             username=validated_data['username'],
             matricno=validated_data['matricno'],
-            phonenumber=validated_data['level'],
+            level=validated_data['level'],
             email=validated_data['email'],
             department=validated_data['department'],
         )
@@ -52,7 +52,6 @@ class ProfileSerializer(serializers.ModelSerializer):
             'registered_courses',
             'total_units',
             'level',
-            'phone_number',
             'about',
             'department',
             'matric_number',

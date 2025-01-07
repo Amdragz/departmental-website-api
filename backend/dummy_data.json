@@ -259,6 +259,7 @@
         "isRead": false
       },
       {
+        
         "notificationDate": "2024-12-29",
         "notificationSubject": "Fee Payment Reminder",
         "notificationBody": "Last date for tuition fee payment is January 20th, 2025.",
@@ -282,7 +283,6 @@
         "registeredCourses": ["CSC101", "MTH101", "ENG103", "PHY105"],
         "totalUnits": 12,
         "level": 100,
-        "phoneNumber": "+234 801 234 5678",
         "about": "First-year computer engineering student with interest in software development.",
         "name": "John Doe",
         "email": "john.doe@university.edu",
@@ -293,7 +293,6 @@
         "registeredCourses": ["CSC201", "EEE201", "MTH203", "STA201"],
         "totalUnits": 11,
         "level": 200,
-        "phoneNumber": "+234 802 345 6789",
         "about": "Second-year student passionate about robotics and AI.",
         "name": "Jane Smith",
         "email": "jane.smith@university.edu",
@@ -304,7 +303,6 @@
         "registeredCourses": ["CSC101", "MTH101", "CHM101", "PHY105"],
         "totalUnits": 13,
         "level": 100,
-        "phoneNumber": "+234 803 456 7890",
         "about": "Freshman interested in chemical engineering and sustainable energy.",
         "name": "Michael Johnson",
         "email": "michael.j@university.edu",
@@ -315,7 +313,6 @@
         "registeredCourses": ["ENG111", "MTH101", "PHY105", "CHM101"],
         "totalUnits": 11,
         "level": 100,
-        "phoneNumber": "+234 804 567 8901",
         "about": "First-year student focusing on mechanical engineering systems.",
         "name": "Sarah Williams",
         "email": "sarah.w@university.edu",
@@ -326,7 +323,6 @@
         "registeredCourses": ["CSC201", "MTH203", "STA201", "EEE201"],
         "totalUnits": 11,
         "level": 200,
-        "phoneNumber": "+234 805 678 9012",
         "about": "Second-year student specializing in electronics and communication.",
         "name": "David Brown",
         "email": "david.b@university.edu",
