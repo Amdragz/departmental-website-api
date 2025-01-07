@@ -76,7 +76,6 @@ class Profile(models.Model):
     registered_courses = models.ManyToManyField(Course)
     total_units = models.IntegerField()
     level = models.IntegerField()
-    phone_number = models.CharField(max_length=20)
     about = models.TextField()
     department = models.CharField(max_length=100)
     matric_number = models.CharField(max_length=20, unique=True)
