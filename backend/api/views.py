@@ -14,8 +14,8 @@ class GetUserByMatricNoView(generics.RetrieveAPIView):
     permission_classes = [IsAuthenticated]
 
     def get_object(self):
-        matricno = self.kwargs['matricno']
-        return CustomUser.objects.get(matricno=matricno)
+        user_id = self.kwargs['user_id']
+        return CustomUser.objects.get(user_id=user_id)
     
 class DocumentViewSet(generics.ListAPIView):
     queryset = Document.objects.all()

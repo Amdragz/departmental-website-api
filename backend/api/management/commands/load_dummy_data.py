@@ -72,7 +72,8 @@ class Command(BaseCommand):
                     last_name=profile_data['name'].split()[1],
                     department=profile_data['department'],
                     matricno=profile_data['matricNumber'],
-                    level=profile_data['level']
+                    level=profile_data['level'],
+                    about=profile_data['about']
                 )
                 
                 # Create Profile
