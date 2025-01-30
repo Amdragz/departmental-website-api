@@ -4,7 +4,7 @@ from .models import Course, CustomUser, Document, Notification, Profile, Resourc
 class CustomUserSerializer(serializers.ModelSerializer):
     class Meta:
         model = CustomUser
-        fields = ['username', 'level', 'department', 'email', 'matricno', 'password']
+        fields = ['user_id', 'username', 'level', 'department', 'email', 'matricno', 'about', 'password']
         extra_kwargs = {
             'password': {'write_only': True},
         }
@@ -15,6 +15,7 @@ class CustomUserSerializer(serializers.ModelSerializer):
             matricno=validated_data['matricno'],
             level=validated_data['level'],
             email=validated_data['email'],
+            about=validated_data['about'],
             department=validated_data['department'],
         )
 

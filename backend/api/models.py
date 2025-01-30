@@ -1,11 +1,14 @@
+import uuid
 from django.contrib.auth.models import AbstractUser
 from django.db import models
 
 class CustomUser(AbstractUser):
+    user_id = models.UUIDField(default=uuid.uuid4, editable=False, unique=True)
     department = models.CharField(max_length=500)
     matricno = models.CharField(max_length=100, unique=True)
     level = models.CharField(max_length=128)
     email = models.EmailField(unique=True)
+    about = models.TextField(null=True, blank=True)
 
     def __str__(self):
         return self.username
