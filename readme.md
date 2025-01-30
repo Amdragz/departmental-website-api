@@ -1,4 +1,4 @@
-# Django Backend
+# Departmental Portal Backend
 
 ## Overview
 This is a Django-based backend that powers the Departmental Portal, providing authentication, user management, and essential resource handling. It features JWT-based authentication for secure access, a PostgreSQL database for efficient data storage, and RESTful APIs to facilitate seamless communication between the frontend and backend. The backend is designed to handle academic resources, notifications, document tracking, and research tools, ensuring a reliable and efficient system that supports students and departmental operations at any University enterprises.
