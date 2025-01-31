@@ -20,18 +20,22 @@ class GetUserByMatricNoView(generics.RetrieveAPIView):
 class DocumentViewSet(generics.ListAPIView):
     queryset = Document.objects.all()
     serializer_class = DocumentSerializer
+    permission_classes = [IsAuthenticated]
 
 class CourseViewSet(generics.ListAPIView):
     queryset = Course.objects.all()
     serializer_class = CourseSerializer
+    permission_classes = [IsAuthenticated]
 
 class ResourceViewSet(generics.ListAPIView):
     queryset = Resource.objects.all()
     serializer_class = ResourceSerializer
+    permission_classes = [IsAuthenticated]
 
 class NotificationViewSet(generics.ListAPIView):
     queryset = Notification.objects.all()
     serializer_class = NotificationSerializer
+    permission_classes = [IsAuthenticated]
 
 # class ProfileViewSet(generics.ListAPIView):
 #     queryset = Profile.objects.all()
